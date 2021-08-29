@@ -25,6 +25,26 @@ def crear_dama(x,y,r,g,b,radius):
     
     return numpy.array(circle, dtype = numpy.float32)
 
+# 1. Crear funcion que genere la geometria del tablero y retorne un arreglo
+# numpy con la geometria y colores del tablero completo.
+def crear_tablero():
+    tablero = []
+
+    negro = [0.0, 0.0, 0.0]
+    blanco = [1.0, 1.0, 1.0]
+
+    for cuadro in 
+
+
+    vertexData = np.array([
+    #   positions        colors
+        -1.0, yf, 0.0,  color1[0], color1[1], color1[2],
+         1.0, yf, 0.0,  color1[0], color1[1], color1[2],
+         1.0,  y0, 0.0,  color0[0], color0[1], color0[2],
+        -1.0,  y0, 0.0,  color0[0], color0[1], color0[2]
+    # It is important to use 32 bits data
+        ], dtype = np.float32)
+
 if __name__ == "__main__":
 
     # Initialize glfw
